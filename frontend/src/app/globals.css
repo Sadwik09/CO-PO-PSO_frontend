@@ -7,7 +7,8 @@
   --color-rose: #D0A8A8;
   --color-wine: #C88080;
   --color-surface: #FAFAF8;
-  --color-dark: #3D3D3B;
+  --color-dark: #1F1815;
+  --color-brown: #4A3728;
   --color-glass: rgba(255, 255, 255, 0.90);
   
   --font-display: var(--font-bricolage);
@@ -50,6 +51,6 @@
   }
   .text-caption { 
     font-size: 0.8rem; 
-    color: rgba(248, 250, 252, 0.7); /* Surface pearl semi-transparent */
+    color: rgba(31, 24, 21, 0.7); /* Dark brown semi-transparent */
   }
 }
