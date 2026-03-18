@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  --color-sage: #A8B8A8;
-  --color-peach: #F0D0C8;
-  --color-sky: #A8D0E8;
-  --color-rose: #D0A8A8;
-  --color-wine: #C88080;
+  --color-crushed-berry: #880d1e;
+  --color-amaranth: #dd2d4a;
+  --color-bubblegum: #f26a8d;
+  --color-pink-mist: #f49cbb;
+  --color-light-cyan: #cbeef3;
   --color-surface: #FAFAF8;
   --color-dark: #1F1815;
   --color-brown: #4A3728;
@@ -23,7 +23,7 @@
   }
   
   ::selection {
-    background-color: var(--color-wine);
+    background-color: var(--color-amaranth);
     color: var(--color-surface);
   }
   
