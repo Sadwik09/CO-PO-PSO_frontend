@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-cosmic: #0F172A;
-  --color-brand: #1D4ED8;
-  --color-aurora: #06B6D4;
-  --color-insight: #7C3AED;
-  --color-attain: #059669;
-  --color-alert: #D97706;
-  --color-surface: #F8FAFC;
-  --color-glass: rgba(255, 255, 255, 0.85);
+  --color-cosmic: #F5F3F0;
+  --color-brand: #C75B72;
+  --color-aurora: #ADD9E8;
+  --color-insight: #D4949D;
+  --color-attain: #A4B494;
+  --color-alert: #E8CCC5;
+  --color-surface: #1A1814;
+  --color-glass: rgba(255, 255, 255, 0.95);
   
   --font-display: var(--font-bricolage);
   --font-sans: var(--font-jakarta);
@@ -17,7 +17,7 @@
 
 @layer base {
   body {
-    background-color: var(--color-cosmic); /* Changed to cosmic by default for a stellar feel */
+    background-color: var(--color-cosmic);
     color: var(--color-surface);
   }
   
